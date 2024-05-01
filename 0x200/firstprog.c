@@ -10,3 +10,7 @@ int main() {
 
     return 0; // Diz ao SO que o programa encerrou sem erros
 }
+
+/*
+    firstprog.out é o programa compilado e representa a liguagem de máquina.
+*/
