@@ -9,7 +9,7 @@ int main() {
     strcpy(message, "Hello, World!");
 
     printf("Repetir quantas vezes? ");
-    scanf("%d", &count);
+    scanf("%d", &count); // Recebe o endereço da variável e não a variável em si
 
     for(i=0; i< count; i++) {
         printf("%3d - %s\n", i, message);
